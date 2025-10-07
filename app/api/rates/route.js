@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+export async function POST(req) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed, use POST' });
   }
