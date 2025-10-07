@@ -1,0 +1,13 @@
+{
+  "name": "amazeb-shipping",
+  "version": "1.0.0",
+  "description": "Custom carrier service for Shopify - Chronopost percentage rates",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
